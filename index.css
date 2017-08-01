@@ -10,7 +10,7 @@ h1, h2 {
 
 #calculator {
 	background-color: pink;
-	width: 350px;
+	width: 375px;
 	height: 550px;
 	border: 1px black inset;
 	margin: 30px auto;
@@ -20,7 +20,7 @@ h1, h2 {
 
 #total {
     height: 70px;
-    width: 300px;
+    width: 325px;
     margin: 10px auto;
     background-color:white;
     margin-bottom: 5px;
@@ -36,7 +36,7 @@ h1, h2 {
 
 #operators input {
 	display: block;
-	width: 50px;
+	width: 55px;
 	height: 50px;
 	float: left;
 	color: black;
@@ -51,7 +51,7 @@ h1, h2 {
 
 #clears input {
 	display: block;
-	width: 155px;
+	width: 165px;
 	height: 50px;
 	float: left;
 	color: black;
@@ -66,7 +66,7 @@ h1, h2 {
 
 #numbers input {
 	display: block;
-	width: 80px;
+	width: 88px;
 	height: 70px;
 	float: left;
 	color: black;
