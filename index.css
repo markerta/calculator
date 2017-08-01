@@ -1,0 +1,80 @@
+body, div, button, p, h1, h2 {
+    padding:0;
+    margin:0;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+#calculator {
+	background-color: pink;
+	width: 350px;
+	height: 550px;
+	border: 1px black inset;
+	margin: 30px auto;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+#total {
+    height: 70px;
+    width: 300px;
+    margin: 10px auto;
+    background-color:white;
+    margin-bottom: 5px;
+    text-align: right;
+    font-size: 60px;
+    padding: 0 5px;
+}
+
+#numbers, #operators, #clears {
+	overflow: hidden;
+	margin: 10px auto;	
+}
+
+#operators input {
+	display: block;
+	width: 50px;
+	height: 50px;
+	float: left;
+	color: black;
+	text-align: center;
+	font-size: 39px;
+	padding: 0px;
+	margin: 5px 10px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#EDEDED), to(#DCDCDC));
+	background: -moz-linear-gradient(top, #EDEDED, #DCDCDC);
+	border-radius: 10px;
+}
+
+#clears input {
+	display: block;
+	width: 155px;
+	height: 50px;
+	float: left;
+	color: black;
+	text-align: center;
+	font-size: 34px;
+	padding: 0px;
+	margin: 0px 10px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#EDEDED), to(#DCDCDC));
+	background: -moz-linear-gradient(top, #EDEDED, #DCDCDC);
+	border-radius: 10px;
+}
+
+#numbers input {
+	display: block;
+	width: 80px;
+	height: 70px;
+	float: left;
+	color: black;
+	text-align: center;
+	font-size: 32pt;
+	padding: 0px;
+	margin: 5px 18.25px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#EDEDED), to(#DCDCDC));
+	background: -moz-linear-gradient(top, #EDEDED, #DCDCDC);
+	border-radius: 10px;
+}

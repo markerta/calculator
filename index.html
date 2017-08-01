@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <form id="calculator">
+    	<div id="total">
+    		<p id = "op_text" style="float: left;">Calc 2.0</p>
+    		<p id = "total_text" style="float: right;">0</p>
+		</div>
+		<div id="operators">
+			<input type="button" id="add" value="+" />
+			<input type="button" id="subtract" value="-" />
+			<input type="button" id="multiply" value="*" />
+			<input type="button" id="divide" value="/" />
+			<input type="button" id="equals" value="=" />
+		</div>
+		<div id = "clears">
+			<input type="button" id="clear" value="C" />
+			<input type="button" id="clear_all" value="CA" />
+		</div>
+    	<div id="numbers">
+		    <input type="button" id="nine" value="9" />
+		    <input type="button" id="eight" value="8" />
+		    <input type="button" id="seven" value="7" />
+		    <input type="button" id="six" value="6" />
+		    <input type="button" id="five" value="5" />
+		    <input type="button" id="four" value="4" />
+		    <input type="button" id="three" value="3" />
+		    <input type="button" id="two" value="2" />
+		   	<input type="button" id="one" value="1" />
+		   	<input type="button" id="neg" value="+/-" />
+		   	<input type="button" id="zero" value="0" />
+		   	<input type="button" id="dot" value="." />
+		</div>
+    </form>
+    <script src="calculate.js"></script>
+  </body>
+</html>
